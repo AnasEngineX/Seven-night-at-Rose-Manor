@@ -109,6 +109,11 @@ renpy.exe "path/to/Seven Nights at Rose Manor" lint
 
 ---
 
+### AI Disclosure
+This indie visual novel was developed by the creator with the assistance of Generative AI tools (including concept exploration, illustration asset generation, sound synthesis assistance, and code programming assistance), which were carefully directed, edited, curated, and coded into the Ren'Py engine.
+
+---
+
 ### License & Credits
 All story scripts, character designs, and visual/audio assets are the intellectual property of the creator of Seven Nights at Rose Manor. Built with the open-source Ren'Py Visual Novel Engine.
 
@@ -245,6 +250,11 @@ Proyek ini dirancang untuk terus berkembang dengan penambahan konten pada rilis-
   - Integrasi voice acting untuk dialog-dialog kunci.
   - Animasi visual cutscene dan efek partikel cuaca (badai dan kilat atmosferik).
   - Porting dan optimasi untuk platform Android / Mobile.
+
+---
+
+### Pernyataan Penggunaan Alat AI (AI Disclosure)
+Proyek visual novel indie ini dikembangkan oleh kreator dengan bantuan teknologi Generative AI (eksplorasi konsep cerita, pembuatan aset ilustrasi visual, sintesis suara, dan asistensi kode pemrograman), yang kemudian diarahkan, disunting, dikurasi, dan diimplementasikan secara terstruktur ke dalam mesin Ren'Py.
 
 ---
 

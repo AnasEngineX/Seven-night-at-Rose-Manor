@@ -1,6 +1,6 @@
 # Seven Nights at Rose Manor - Panduan & Deskripsi Lengkap Halaman Itch.io
 
-Dokumen ini berisi seluruh materi, teks deskripsi siap salin (copy-paste), metadata, dan petunjuk gambar untuk halaman rilis di **itch.io**.
+Dokumen ini berisi seluruh materi, teks deskripsi siap salin (copy-paste), metadata, petunjuk gambar banner, background, dan palet warna untuk halaman rilis di **itch.io**.
 
 ---
 
@@ -8,7 +8,7 @@ Dokumen ini berisi seluruh materi, teks deskripsi siap salin (copy-paste), metad
 
 1. **Cover Image (Sampul Utama Game)**
    - Lokasi: `itch_assets/cover_itch.jpg`
-   - Ukuran & Rasio: 4:3 (Resolusi Tinggi).
+   - Ukuran & Rasio: 4:3 (1024x768).
    - Menampilkan: Kastil megah gotik Rose Manor di atas tebing di tengah badai petir malam hari, jendela bercahaya lilin, gaun renda Victorian, dan semak mawar hitam berduri lengkap dengan tipografi orisinal *"Seven Nights at Rose Manor - A Gothic Mystery Novel"*.
 
 2. **Game Icon (Ikon / Avatar Profil Game)**
@@ -16,19 +16,32 @@ Dokumen ini berisi seluruh materi, teks deskripsi siap salin (copy-paste), metad
    - Ukuran & Rasio: 1:1 Persegi (1024x1024).
    - Menampilkan: Medali segel perunggu antik melingkar bergaya Victorian dengan mawar hitam-merah merekah, sulur duri tajam, dan kunci perak kuno.
 
+3. **Banner Image (Header Atas Halaman Game)**
+   - Lokasi: `itch_assets/banner_itch.jpg`
+   - Ukuran & Rasio: 16:9 Panoramik (1920x1080).
+   - Menampilkan: Pemandangan sinematik luas Rose Manor di tengah badai petir malam hari di tepi laut tebing berkabut dan sulur duri mawar hitam.
+
+4. **Background Wallpaper (Latar Belakang Halaman Web)**
+   - Lokasi: `itch_assets/background_itch.jpg`
+   - Ukuran & Rasio: 16:9 (1920x1080).
+   - Menampilkan: Tekstur damask dinding Victorian bernuansa gelap (obsidian dan wine burgundy) dengan kabut lembut dan sulur berduri, dirancang gelap di bagian tengah agar teks deskripsi tetap sangat mudah dibaca.
+
+5. **Window & Taskbar Icon**:
+   - Lokasi: `itch_assets/window_icon.png` dan `icon.ico` di root game.
+
 ---
 
 ## 2. Pengaturan Dasar Halaman Itch.io (Metadata & Form)
 
 - **Title**: `Seven Nights at Rose Manor`
-- **Game URL**: `https://anasenginex.itch.io/seven-nights-at-rose-manor` *(atau sesuai akun Anda)*
+- **Game URL**: `https://anasenginex.itch.io/seven-nights-at-rose-manor`
 - **Short description / Tagline**:
   - *Versi Bahasa Inggris*: `A psychological gothic mystery visual novel. Uncover the occult truth behind Rose Manor before the seventh night draws to a close.`
   - *Versi Bahasa Indonesia*: `Novel visual misteri gotik psikologis. Ungkap rahasia kelam okultisme di Rose Manor sebelum malam ketujuh berakhir.`
 - **Classification**: `Games`
 - **Kind of project**: `Downloadable`
 - **Release status**: `Released`
-- **Pricing**: `$0 or donate` *(Disarankan "No payments" atau "$0 or donate" untuk menarik pemain awal)*
+- **Pricing**: `$0 or donate`
 - **Genre**: `Visual Novel`
 - **Tags (Ketikkan di kolom Tags itch.io)**:
   `Visual Novel`, `Horror`, `Mystery`, `Psychological Horror`, `Gothic`, `Detective`, `Story Rich`, `Multiple Endings`, `Victorian`, `Atmospheric`, `Choices Matter`, `Supernatural`, `Indonesian`, `English`, `Dark`
@@ -38,7 +51,7 @@ Dokumen ini berisi seluruh materi, teks deskripsi siap salin (copy-paste), metad
 
 ## 3. Teks Deskripsi Halaman (Description) - Siap Salin ke Editor Itch.io
 
-Gunakan teks di bawah ini pada kolom **Description** di itch.io. Teks ini sudah dioptimalkan dengan struktur menarik untuk menarik perhatian pemain luar negeri dan lokal.
+Salin seluruh teks di bawah ini ke dalam kotak editor **Description** di itch.io:
 
 ```html
 <p align="center">
@@ -148,6 +161,16 @@ Can you deduce who is pulling the strings, sift truth from deceit, and survive u
   <li><b>v1.2.0:</b> Voice acting integration, animated cutscene sequences, and Android mobile port.</li>
 </ul>
 
+<hr>
+
+<h3>AI DISCLOSURE / PERNYATAAN PENGGUNAAN ALAT AI</h3>
+<p>
+This indie visual novel was developed by the creator with the assistance of Generative AI tools (including concept exploration, illustration asset generation, sound synthesis assistance, and code programming assistance), which were carefully directed, edited, curated, and coded into the Ren'Py engine.
+</p>
+<p><i>
+Proyek visual novel indie ini dikembangkan oleh kreator dengan bantuan teknologi Generative AI (eksplorasi konsep cerita, pembuatan aset ilustrasi visual, sintesis suara, dan asistensi kode pemrograman), yang kemudian diarahkan, disunting, dikurasi, dan diimplementasikan secara terstruktur ke dalam mesin Ren'Py.
+</i></p>
+
 <p align="center">
   <i>Developed with Ren'Py Visual Novel Engine. All story content, characters, and assets are intellectual property of Seven Nights at Rose Manor.</i>
 </p>
@@ -155,22 +178,38 @@ Can you deduce who is pulling the strings, sift truth from deceit, and survive u
 
 ---
 
-## 4. Cara Membuat File Distribusi Game (Package) untuk Diunggah ke Itch.io
+## 4. Panduan Desain Tema Itch.io (Edit Theme: Banner, Background & Colors)
 
-Anda memiliki 2 cara mudah untuk menghasilkan file `.zip` siap download bagi pemain:
+Untuk mengubah tampilan halaman itch.io dari polos menjadi bertema gotik mewah, klik tombol **Edit theme** di bar atas halaman game Anda di itch.io:
 
-### Cara 1: Menggunakan Ren'Py Launcher (Paling Mudah)
+### 1. Banner
+- Pada bagian **Banner**, klik **Upload banner**.
+- Pilih file: `itch_assets/banner_itch.jpg`.
+
+### 2. Background
+- Pada bagian **Background**, klik **Upload background image**.
+- Pilih file: `itch_assets/background_itch.jpg`.
+- Pengaturan repeat: Pilih **Repeat Y** atau biarkan default/fixed.
+
+### 3. Palet Warna (Colors)
+Ketikkan kode heksadesimal berikut pada masing-masing kotak warna:
+- **Background**: `#0d0712` *(Hitam beludru gotik)*
+- **Text**: `#e4dbcc` *(Warna krem perkamen kuno lembut)*
+- **Headers / Headings**: `#f39c12` *(Warna emas hangat)*
+- **Links**: `#d4af37` *(Warna emas antik)*
+- **Link Hover**: `#e74c3c` *(Warna merah mawar darah)*
+- **Container / Content Background**: `#170e1edd` atau `#160e1d` *(Latar belakang boks konten gelap transparan)*
+
+### 4. Font
+- Pilih font bertema klasik/serif, misalnya **Serif**, **Merriweather**, atau **Crimson Text** di menu dropdown itch.io.
+
+---
+
+## 5. Cara Membuat File Distribusi Game (Package) untuk Diunggah ke Itch.io
+
 1. Buka aplikasi **Ren'Py Launcher**.
 2. Pilih proyek **Seven Nights at Rose Manor**.
-3. Di sisi kanan bawah, klik **Build Distributions** (Bangun Distribusi).
-4. Centang **PC: Windows and Linux (zip)** atau **Windows (zip)**.
-5. Klik **Build** (Bangun).
-6. Ren'Py akan menghasilkan file `.zip` di luar folder game (misalnya folder `SevenNightsatRoseManor-1.0.0-dists/`).
-7. Unggah file `.zip` tersebut pada bagian **Uploads** di halaman itch.io Anda.
-
-### Cara 2: Perintah Otomatis via Terminal (CLI)
-Jalankan perintah ini di PowerShell untuk langsung mengompilasi paket distribusi tanpa membuka UI:
-```powershell
-& "E:\renpy\renpy-8.5.2-sdk\lib\py3-windows-x86_64\python.exe" "E:\renpy\renpy-8.5.2-sdk\renpy.py" "E:\renpy\renpy-8.5.2-sdk\launcher" distribute "e:\Seven Nights at Rose Manor" --package win --no-update
-```
-File `.zip` akan langsung jadi dan siap diunggah ke itch.io!
+3. Di sisi kanan bawah, klik **Build Distributions**.
+4. Centang **Windows (zip)** atau **PC: Windows and Linux (zip)**.
+5. Klik **Build**.
+6. Unggah file `.zip` hasil build pada bagian **Uploads** di halaman game itch.io Anda.
