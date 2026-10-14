@@ -1,0 +1,41 @@
+# Directories that Ren'Py changes files in.
+/game/saves/
+/game/cache/
+
+# Compiled script files and bytecode
+*.rpyc
+*.rpymc
+*.rpyb
+
+# Files Ren'Py can generate
+*.bak
+*.new
+*.old
+
+# Error, log, and output files
+errors.txt
+files.txt
+image_cache.txt
+log.txt
+save_dump.txt
+traceback.txt
+
+# Launcher-generated files
+dialogue.tab
+dialogue.txt
+strings.json
+
+# Temporary directories and build artifacts
+tmp/
+*-dists/
+*-release/
+tl_cache.json
+*_test.png
+
+# OS and Editor configurations
+.vscode/
+.idea/
+.gemini/
+.agents/
+Thumbs.db
+.DS_Store
